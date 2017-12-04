@@ -1,0 +1,4 @@
+/usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=/home/scott/repos/code/rt_timer_benchmark/toolchains/linaro-eabihf.cmake -G "CodeBlocks - Unix Makefiles" /home/scott/repos/code/rt_timer_benchmark
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/scott/repos/code/rt_timer_benchmark/cmake-build-debug
