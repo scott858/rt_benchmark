@@ -1,4 +1,3 @@
-
 include(CMakeForceCompiler)
 
 set(CMAKE_SYSTEM_NAME Linux)
@@ -9,7 +8,7 @@ set(CMAKE_SYSTEM_VERSION)
 set(CMAKE_C_COMPILER /opt/toolchains/arm-eabi-4.6/bin/arm-eabi-gcc)
 set(CMAKE_CXX_COMPILER /opt/toolchains/arm-eabi-4.6/bin/arm-eabi-g++)
 
-#set(CMAKE_FIND_ROOT_PATH )
+set(CMAKE_FIND_ROOT_PATH /opt/sysroots/odroid-xu4)
 
 set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
 set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)

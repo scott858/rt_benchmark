@@ -1,10 +1,11 @@
-cmake_minimum_required(VERSION 3.7)
+cmake_minimum_required(VERSION 3.5.1)
 project(rt_timer_benchmark)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_C_STANDARD 99)
 
 add_executable(rt_timer_benchmark
-        main.cpp)
+        main.c)
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -lrt")
-set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -lrt")
+set(CMAKE_VERBOSE_MAKEFILE ON)
+
+target_link_libraries(rt_timer_benchmark "-lrt")
