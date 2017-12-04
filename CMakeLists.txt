@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.5.1)
 project(rt_timer_benchmark)
 
 set(CMAKE_C_STANDARD 99)
+set(CMAKE_CXX_STANDARD 11)
 
 add_executable(rt_timer_benchmark
         main.c)
